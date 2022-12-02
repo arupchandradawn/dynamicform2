@@ -1,0 +1,31 @@
+[
+{
+	"label":"Name",
+	"labeltype":"Textbox",
+	"isValidationRequired":"true",
+    "validationTypeRequired":["notNull"],
+    "value":"Arup"
+},{
+	"label":"Contact",
+	"labeltype":"Textbox",
+	"isValidationRequired":"true",
+    "validationTypeRequired":["notNull"],
+    "value":"9878765654"
+},{
+	"label":"Email",
+	"labeltype":"Textbox",
+	"isValidationRequired":"true",
+    "validationTypeRequired":["notNull","email"],
+    "value":"abcd@gmail.com"
+},{
+	"label":"State",
+	"labeltype":"DropDownlist",
+	"isValidationRequired":"",
+    "value":"Karnataka"
+},{
+	"label":"City",
+	"labeltype":"DropDownlist",
+	"isValidationRequired":"",
+    "value":"Bengaluru"
+}
+]
